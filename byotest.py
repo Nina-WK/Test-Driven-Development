@@ -13,10 +13,9 @@ def test_is_in(collection, item):
 
 #test_are_equal(number_of_evens([1,2,3,4,5]), 2)
 
-test_not_equal(number_of_evens([1,2,3,4,5]), 0)
+#test_not_equal(number_of_evens([1,2,3,4,5]), 0)
 
-
-
+test_is_in([1,5,7], number_of_evens([1,2,3,4,5]))
 
 
 
